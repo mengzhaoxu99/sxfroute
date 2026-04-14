@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.gitignore
+*.md
+docs/
+.env.local
+.env*.local
+.worktrees/

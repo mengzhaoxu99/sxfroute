@@ -1,0 +1,17 @@
+services:
+  web:
+    image: ghcr.io/yixinmeng/sxfroute:latest
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    # 航班数据挂载为只读：宿主机修改 ./data/airport.csv 后，下一次请求即生效，无需重启容器
+    volumes:
+      - ./data:/app/data:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3000/api/init').then(r=>{if(!r.ok)throw r;process.exit(0)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 3

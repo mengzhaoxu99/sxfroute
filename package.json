@@ -1,0 +1,65 @@
+{
+  "name": "sxfroute",
+  "version": "0.1.0",
+  "private": true,
+  "description": "海航随心飞助手 - 中国航班数据查询工具",
+  "author": "yixinmeng",
+  "license": "MIT",
+  "homepage": "https://sxfroute.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yixinmeng/sxfroute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yixinmeng/sxfroute/issues"
+  },
+  "keywords": [
+    "flight",
+    "china",
+    "route-planner",
+    "nextjs",
+    "amap",
+    "haihang",
+    "sxf"
+  ],
+  "scripts": {
+    "dev": "cross-env NODE_NO_WARNINGS=1 next dev",
+    "build": "next build",
+    "start": "NODE_NO_WARNINGS=1 next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-separator": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tabs": "^1.1.2",
+    "@tanstack/react-table": "^8.21.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.439.0",
+    "next": "14.2.9",
+    "next-intl": "^3.26.3",
+    "next-themes": "^0.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sonner": "^1.7.1",
+    "csv-parse": "^6.1.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/amap-js-api": "^1.4.16",
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.31",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

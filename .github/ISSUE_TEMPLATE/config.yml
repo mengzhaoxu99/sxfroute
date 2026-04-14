@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 功能建议 / Feature Request
+    url: https://github.com/yixinmeng/sxfroute/discussions
+    about: 本项目仅接受 bug 上报。功能建议请先在 Discussions 中讨论（若已启用）。
+  - name: 🔒 安全漏洞上报 / Security Vulnerability
+    url: https://github.com/yixinmeng/sxfroute/blob/main/SECURITY.md
+    about: 请不要在公开 Issue 中上报安全问题，查阅 SECURITY.md。
