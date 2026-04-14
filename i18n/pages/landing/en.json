@@ -1,0 +1,105 @@
+{
+  "header": {
+    "brand": {
+      "title": "HNA FlightPass Assistant",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HNA FlightPass Assistant"
+      },
+      "url": "/"
+    }
+  },
+  "hero": {},
+  "flightData": {
+    "name": "flightData",
+    "title": "Flight Search",
+    "label": "Flight Search",
+    "description": "Search for flights between cities, view flight schedules, airlines and detailed information"
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions about HNA FlightPass Assistant",
+    "description": "Learn how to better use the route search tool to plan your FlightPass journey",
+    "items": [
+      {
+        "title": "What are night and early morning flights? Why search specifically for these flights?",
+        "description": "Night flights depart between 20:00-23:59, and early morning flights depart between 00:00-08:00. These time slots typically have fewer passengers, making it easier to redeem FlightPass tickets, and allow you to maximize your time with same-day returns or save on accommodation costs."
+      },
+      {
+        "title": "How do I use the flight data search feature?",
+        "description": "Click the 'Flight Data' button to enter the search page. You can filter flights by selecting departure and arrival airports. The system will display all matching flights, including flight number, airline, flight days, and times. Blue-highlighted times indicate night-time flights."
+      },
+      {
+        "title": "How is the accuracy of flight data ensured?",
+        "description": "Our flight data was compiled from Hainan Airlines' publicly available flight schedules, covering the schedule window 2025-09-01 to 2025-10-25. This is a historical snapshot and will not be continuously updated. We still recommend confirming flight information through official Hainan Airlines channels before booking."
+      },
+      {
+        "title": "What are 2666-exclusive flights?",
+        "description": "2666-exclusive flights are those departing during specific time slots (19:00-19:59 and 08:00-09:00). These flights are specially marked in the system for easy identification."
+      },
+      {
+        "title": "How can I plan an efficient FlightPass itinerary?",
+        "description": "We recommend prioritizing night and early morning flights to maximize time utilization. For example, depart at night, arrive early morning, explore during the day, and return in the evening. Our search tool helps you quickly find suitable flight combinations for optimal itinerary planning."
+      },
+      {
+        "title": "Why are some popular routes difficult to redeem?",
+        "description": "FlightPass seats on popular tourist and business routes are typically in high demand. We suggest choosing off-peak flights, especially night and early morning flights, which have higher success rates. Our tool is specifically optimized for searching flights during these time slots."
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "HNA FlightPass Assistant",
+      "description": "HNA FlightPass Assistant - Professional HNA FlightPass route search tool, smart search for night and early morning flights for more flexible and efficient travel.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "HNA FlightPass Assistant"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 HNA FlightPass Assistant · MIT License · Independent third-party project, not affiliated with Hainan Airlines",
+    "nav": {
+      "items": [
+        {
+          "title": "Quick Links",
+          "children": [
+            {
+              "title": "Flight Data Search",
+              "url": "#flight-data",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@sxfroute.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/en/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/en/terms-of-service"
+        }
+      ]
+    }
+  }
+}
